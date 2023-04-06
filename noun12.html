@@ -1,149 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sustantivos</title>
-    <style>
-.fair-style-button {
-    padding: 30px 20px;
-    border-radius: 20px;
-    border: 2px solid black;
-    color: blue;
-    background-color: yellow;
-    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);*/
-    transition: transform 0.2s ease-in-out;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-.fair-style-but {
-    padding: 30px 20px;
-    border-radius: 20px;
-    border: 2px solid black;
-    color: red;
-    background-color: yellow;
-    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);*/
-    transition: transform 0.2s ease-in-out;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-.fair-style-bu {
-    padding: 30px 20px;
-    border-radius: 20px;
-    border: 2px solid black;
-    color: black;
-    background-color: green;
-    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);*/
-    transition: transform 0.2s ease-in-out;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-.f {
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 2px solid black;
-    color: black;
-    background-color: white;
-    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);*/
-    font-size: 18px;
-    transition: transform 0.2s ease-in-out;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-body{
-    background-color: #ffffbf;
-}
-
-.contenedor-imagen {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.contenedor-imagen img {
-/*max-width: 100%; 
-max-height: 100%;*/
-width: 280px;
-height: 230px;
-}
-.contenedor-pronun{
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.contenedor-audio{
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.cont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.cont-input{
-    color: yellow; 
-    background-color: blue; 
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 18px; 
-    text-align: center; 
-    font-weight: bold; 
-    border-radius: 10px;
-    border: 1px solid black;
-}
-button {
-    width: 80%;
-    height: 30px;
-    font-size: 25px;
-    background-color: aquamarine;
-    color: black; 
-    font-family: 'Courier New', Courier, monospace; 
-    font-weight: bold; 
-    border-radius: 10px;
-    border: 1px solid black;
-}
-    </style>
+    <title>6 Unit</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  
     <center>
         <table>
-            <tr><td class="f">ENGLISH</td><td class="f">ESPAÑOL</td><td class="f">FRASE DE MEMORIZACION</td></tr>
-           
-            <tr><td class="fair-style-button">kitchen</td><td class="fair-style-but">cocina</td><td class="fair-style-bu"></td></tr>
-                
-            <tr><td><div class="contenedor-imagen"><img src="https://images.pexels.com/photos/3926542/pexels-photo-3926542.jpeg?auto=compress&cs=tinysrgb&w=600"></div></td>
-                <td><div class="cont"><input type="text" class="cont-input"></div></td>
-                <td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_kitchen.mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div>
-                <div class="contenedor-audio"><audio controls><source src="pronunciation_en_kitchen (1).mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td>
-                
-            
+            <tr>
+                <td class="f">ENGLISH</td>
+                <td class="f">ESPAÑOL</td>
+                <td class="f">FRASE DE MEMORIZACION</td>
             </tr>
+            <tr>
+                <td class="fair-style-button">kitchen</td>
+                <td class="fair-style-but">cocina</td>
+                <td class="fair-style-bu"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="contenedor-imagen"><img src="https://images.pexels.com/photos/3926542/pexels-photo-3926542.jpeg?auto=compress&cs=tinysrgb&w=600
                 
-            <tr><td><div class="cont"><input type="text" class="cont-input"></div></td><td></td><td><div class="cont"><input type="text" class="cont-input"></div></td></tr>
-                
-            <tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_kitchen.mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div>
-                
-                <div class="contenedor-audio"><audio controls><source src="pronunciation_en_kitchen (1).mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td>
-                
-                <td><div class="cont"><h1 type="button" id="a1">____</h1></div></td></tr>
-            
-            <tr><td class="fair-style-button">stove</td><td class="fair-style-but">estufa</td><td class="fair-style-bu"></td></tr><tr><td><div class="contenedor-imagen"><img src="https://images.pexels.com/photos/3768169/pexels-photo-3768169.jpeg?auto=compress&cs=tinysrgb&w=600"></div></td><td><div class="cont"><input type="text" class="cont-input"></div></td></tr><tr><td><div class="cont"><input type="text" class="cont-input"></div></td></tr><tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_stove.mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td></tr><tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_stove (1).mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td></tr><tr><td><div class="cont"><button id="a2"></button></div></td></tr>
-            <tr><td class="fair-style-button">refrigerator</td><td class="fair-style-but">frigorifico </td><td class="fair-style-bu"></td></tr><tr><td><div class="contenedor-imagen"><img src="https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg?auto=compress&cs=tinysrgb&w=600"></div></td><td><div class="cont"><input type="text" class="cont-input"></div></td></tr><tr><td><div class="cont"><input type="text" class="cont-input"></div></td></tr><tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_refrigerator.mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td></tr><tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_refrigerator (1).mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td></tr><tr><td><div class="cont"><button id="a3"></button></div></td></tr>
-            <tr><td class="fair-style-button">washing machine</td><td class="fair-style-but">lavadora</td><td class="fair-style-bu"></td></tr><tr><td><div class="contenedor-imagen"><img src="https://images.pexels.com/photos/5591460/pexels-photo-5591460.jpeg?auto=compress&cs=tinysrgb&w=600"></div></td><td><div class="cont"><input type="text" class="cont-input"></div></td></tr><tr><td><div class="cont"><input type="text" class="cont-input"></div></td></tr><tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_washing machine.mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td></tr><tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_washing machine (1).mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td></tr><tr><td><div class="cont"><button id="a4"></button></div></td></tr>
-            <tr><td class="fair-style-button">microwave</td><td class="fair-style-but">microondas</td><td class="fair-style-bu"></td></tr><tr><td><div class="contenedor-imagen"><img src="https://images.pexels.com/photos/4686822/pexels-photo-4686822.jpeg?auto=compress&cs=tinysrgb&w=600"></div></td><td><div class="cont"><input type="text" class="cont-input"></div></td></tr><tr><td><div class="cont"><input type="text" class="cont-input"></div></td></tr><tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_microwave.mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td></tr><tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_microwave (1).mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td></tr><tr><td><div class="cont"><button id="a5"></button></div></td></tr>
-            <tr><td class="fair-style-button">dishwasher</td><td class="fair-style-but">lavajillas</td><td class="fair-style-bu"></td></tr><tr><td><div class="contenedor-imagen"><img src="https://images.pexels.com/photos/6195894/pexels-photo-6195894.jpeg?auto=compress&cs=tinysrgb&w=600"></div></td><td><div class="cont"><input type="text" class="cont-input"></div></td></tr><tr><td><div class="cont"><input type="text" class="cont-input"></div></td></tr><tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_dishwasher.mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td></tr><tr><td><div class="contenedor-audio"><audio controls><source src="pronunciation_en_dishwasher (1).mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.</audio></div></td></tr><tr><td><div class="cont"><button id="a6"></button></div></td></tr>
-            
+                "></div>
+                </td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td>
+                    <div class="container">
+                        <div class="up">
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_kitchen
+                    .mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.
+                                </audio></div>
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_
+                        kitchen
+                        (1).mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.
+                                </audio></div>
+                        </div>
+                        <div class="bellow">
+                            <div class="cont">
+                                <h1 type="button" id="a1">_______</h1>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_
+                            kitchen
+                            .mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.
+                        </audio></div>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_
+                            kitchen
+                             (1).mp3" type="audio/mpeg">Tu navegador no soporta la reproducción de audio.
+                        </audio></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="grab"><button id="recordButton"><i class="material-icons">mic</i></button><button
+                            id="stopButton" disabled><i class="material-icons">stop</i></button></div><audio controls
+                        id="audio"></audio>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="fair-style-button">kitchen</td>
+                <td class="fair-style-but">cocina</td>
+                <td class="fair-style-bu"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-imagen"><img
+                            src="https://images.pexels.com/photos/3926542/pexels-photo-3926542.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                </td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td>
+                    <div class="container">
+                        <div class="up">
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_kitchen.mp3" type="audio/mpeg">Tu navegador no soporta
+                                    la reproducción de audio.
+                                </audio></div>
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_kitchen (1).mp3" type="audio/mpeg">Tu navegador no
+                                    soporta la reproducción de audio.
+                                </audio></div>
+                        </div>
+                        <div class="bellow">
+                            <div class="cont">
+                                <h1 type="button" id="a1">_______</h1>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_kitchen.mp3" type="audio/mpeg">Tu navegador no soporta la
+                            reproducción de audio.
+                        </audio></div>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_kitchen (1).mp3" type="audio/mpeg">Tu navegador no soporta la
+                            reproducción de audio.
+                        </audio></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="grab"><button id="recordButton"><i class="material-icons">mic</i></button><button
+                            id="stopButton" disabled><i class="material-icons">stop</i></button></div><audio controls
+                        id="audio"></audio>
+                </td>
+            </tr>
+            <tr>
+                <td class="fair-style-button">stove</td>
+                <td class="fair-style-but">cocina</td>
+                <td class="fair-style-bu"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-imagen"><img
+                            src="https://images.pexels.com/photos/3768169/pexels-photo-3768169.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                </td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td>
+                    <div class="container">
+                        <div class="up">
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_stove.mp3" type="audio/mpeg">Tu navegador no soporta
+                                    la reproducción de audio.
+                                </audio></div>
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_stove (1).mp3" type="audio/mpeg">Tu navegador no
+                                    soporta la reproducción de audio.
+                                </audio></div>
+                        </div>
+                        <div class="bellow">
+                            <div class="cont">
+                                <h1 type="button" id="a2">_______</h1>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_stove.mp3" type="audio/mpeg">Tu navegador no soporta la
+                            reproducción de audio.
+                        </audio></div>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_stove (1).mp3" type="audio/mpeg">Tu navegador no soporta la
+                            reproducción de audio.
+                        </audio></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="grab"><button id="recordButton"><i class="material-icons">mic</i></button><button
+                            id="stopButton" disabled><i class="material-icons">stop</i></button></div><audio controls
+                        id="audio"></audio>
+                </td>
+            </tr>
+            <tr>
+                <td class="fair-style-button">refrigerator</td>
+                <td class="fair-style-but">frigorifico </td>
+                <td class="fair-style-bu"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-imagen"><img
+                            src="https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                </td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td>
+                    <div class="container">
+                        <div class="up">
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_refrigerator.mp3" type="audio/mpeg">Tu navegador no
+                                    soporta la reproducción de audio.
+                                </audio></div>
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_refrigerator (1).mp3" type="audio/mpeg">Tu navegador
+                                    no soporta la reproducción de audio.
+                                </audio></div>
+                        </div>
+                        <div class="bellow">
+                            <div class="cont">
+                                <h1 type="button" id="a3">_______</h1>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_refrigerator.mp3" type="audio/mpeg">Tu navegador no soporta la
+                            reproducción de audio.
+                        </audio></div>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_refrigerator (1).mp3" type="audio/mpeg">Tu navegador no
+                            soporta la reproducción de audio.
+                        </audio></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="grab"><button id="recordButton"><i class="material-icons">mic</i></button><button
+                            id="stopButton" disabled><i class="material-icons">stop</i></button></div><audio controls
+                        id="audio"></audio>
+                </td>
+            </tr>
+            <tr>
+                <td class="fair-style-button">washing machine</td>
+                <td class="fair-style-but">lavadora</td>
+                <td class="fair-style-bu"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-imagen"><img
+                            src="https://images.pexels.com/photos/5591460/pexels-photo-5591460.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                </td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td>
+                    <div class="container">
+                        <div class="up">
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_washing machine.mp3" type="audio/mpeg">Tu navegador no
+                                    soporta la reproducción de audio.
+                                </audio></div>
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_washing machine (1).mp3" type="audio/mpeg">Tu
+                                    navegador no soporta la reproducción de audio.
+                                </audio></div>
+                        </div>
+                        <div class="bellow">
+                            <div class="cont">
+                                <h1 type="button" id="a4">_______</h1>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_washing machine.mp3" type="audio/mpeg">Tu navegador no soporta
+                            la reproducción de audio.
+                        </audio></div>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_washing machine (1).mp3" type="audio/mpeg">Tu navegador no
+                            soporta la reproducción de audio.
+                        </audio></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="grab"><button id="recordButton"><i class="material-icons">mic</i></button><button
+                            id="stopButton" disabled><i class="material-icons">stop</i></button></div><audio controls
+                        id="audio"></audio>
+                </td>
+            </tr>
+            <tr>
+                <td class="fair-style-button">microwave</td>
+                <td class="fair-style-but">microondas</td>
+                <td class="fair-style-bu"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-imagen"><img
+                            src="https://images.pexels.com/photos/4686822/pexels-photo-4686822.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                </td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td>
+                    <div class="container">
+                        <div class="up">
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_microwave.mp3" type="audio/mpeg">Tu navegador no
+                                    soporta la reproducción de audio.
+                                </audio></div>
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_microwave (1).mp3" type="audio/mpeg">Tu navegador no
+                                    soporta la reproducción de audio.
+                                </audio></div>
+                        </div>
+                        <div class="bellow">
+                            <div class="cont">
+                                <h1 type="button" id="a5">_______</h1>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_microwave.mp3" type="audio/mpeg">Tu navegador no soporta la
+                            reproducción de audio.
+                        </audio></div>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_microwave (1).mp3" type="audio/mpeg">Tu navegador no soporta
+                            la reproducción de audio.
+                        </audio></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="grab"><button id="recordButton"><i class="material-icons">mic</i></button><button
+                            id="stopButton" disabled><i class="material-icons">stop</i></button></div><audio controls
+                        id="audio"></audio>
+                </td>
+            </tr>
+            <tr>
+                <td class="fair-style-button">dishwasher</td>
+                <td class="fair-style-but">lavajillas</td>
+                <td class="fair-style-bu"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-imagen"><img
+                            src="https://images.pexels.com/photos/6195894/pexels-photo-6195894.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                </td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td>
+                    <div class="container">
+                        <div class="up">
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_dishwasher.mp3" type="audio/mpeg">Tu navegador no
+                                    soporta la reproducción de audio.
+                                </audio></div>
+                            <div class="contenedor-audio"><audio controls>
+                                    <source src="pronunciation_en_dishwasher (1).mp3" type="audio/mpeg">Tu navegador no
+                                    soporta la reproducción de audio.
+                                </audio></div>
+                        </div>
+                        <div class="bellow">
+                            <div class="cont">
+                                <h1 type="button" id="a6">_______</h1>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="cont"><input type="text" class="cont-input"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_dishwasher.mp3" type="audio/mpeg">Tu navegador no soporta la
+                            reproducción de audio.
+                        </audio></div>
+                    <div class="contenedor-audio"><audio controls>
+                            <source src="pronunciation_en_dishwasher (1).mp3" type="audio/mpeg">Tu navegador no soporta
+                            la reproducción de audio.
+                        </audio></div>
+                </td>
+                <td></td>
+                <td>
+                    <div class="grab"><button id="recordButton"><i class="material-icons">mic</i></button><button
+                            id="stopButton" disabled><i class="material-icons">stop</i></button></div><audio controls
+                        id="audio"></audio>
+                </td>
+            </tr>
+
+
         </table>
     </center>
     <script src="1.js"></script>
 </body>
+
 </html>
